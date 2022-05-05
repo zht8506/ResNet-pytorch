@@ -35,7 +35,7 @@ http://download.tensorflow.org/example_images/flower_photos.tgz
   └── split_data.py: 批量图像预测脚本
 ```
 
-根据需要的resnet模型，下载预训练权重，然后指定划分后的数据集路径，运行train.py脚本。
+根据需要的resnet模型，下载预训练权重，然后指定划分后的数据集路径（28行），指定权重路径（68行），运行train.py脚本。
 
 model_urls = {
     'resnet18': 'https://download.pytorch.org/models/resnet18-5c106cde.pth',
